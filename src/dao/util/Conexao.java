@@ -12,7 +12,7 @@ public class Conexao {
 			return DriverManager.getConnection(
 					"jdbc:postgresql://localhost:5432/bancoderiva",
 					//usuario    //senha
-					"postgres", "123");
+					"postgres", "senha");
 		} catch (Exception ex) {
 			ex.printStackTrace(); 
 		} 
